@@ -3,6 +3,7 @@ import NavBar from "./navbar.jsx";
 import Jumbotron from "./jumbotron.jsx";
 import Card from "./card.jsx";
 import Footer from "./footer.jsx"
+import Contenedor from "./contenedor.jsx";
 
 
 
@@ -11,10 +12,7 @@ const Home = () => {
 	return (<>
 		<NavBar/>
 		<Jumbotron/>
-		<Card/>
-		<Card/>
-		<Card/>
-		<Card/>
+		<Contenedor/>
 		<Footer/>
 		</>
 	);
