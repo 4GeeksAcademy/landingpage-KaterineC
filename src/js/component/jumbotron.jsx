@@ -2,7 +2,7 @@ import React from "react";
 
 const Jumbotron = () => {
     return(
-      <div className='mx-5'>
+      <div className='mx-3'>
         <div className="p-2  bg-body-tertiary rounded-3 my-4 mx-auto" style={{ backgroundColor: 'rgba(215,215,215, 0.3)'}}>
         <div className="container-fluid py-5">
           <h1 className="display-5 fw-normal" style={{fontSize: '60px'}}>A Warm Welcome!</h1>

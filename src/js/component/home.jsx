@@ -11,8 +11,10 @@ import Contenedor from "./contenedor.jsx";
 const Home = () => {
 	return (<>
 		<NavBar/>
+		<div className="container">
 		<Jumbotron/>
 		<Contenedor/>
+		</div>
 		<Footer/>
 		</>
 	);
